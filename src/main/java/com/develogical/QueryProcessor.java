@@ -17,6 +17,7 @@ public class QueryProcessor {
                     "English writer and social critic. " +
                     "He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era.";
         }
+
         return "";
     }
 }
