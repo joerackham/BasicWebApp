@@ -12,6 +12,11 @@ public class QueryProcessor {
             return "Stephen King (21 September 1947 - Present) is an " +
                     "American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.";
         }
+        if (query.toLowerCase().contains("dickens")) {
+            return "Charles Dickens (7 February 1812 - 9 June 1970) was an " +
+                    "English writer and social critic. " +
+                    "He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era.";
+        }
         return "";
     }
 }
